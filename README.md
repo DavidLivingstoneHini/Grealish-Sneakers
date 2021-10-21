@@ -1,4 +1,4 @@
-# A React Native Sneaker Shop App(DCIT 202 IA).
+# A React Native Sneaker Shop App(DCIT 202 IA)
 
 ## Author
 > - Name: David Livingstone Hini
