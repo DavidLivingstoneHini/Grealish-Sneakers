@@ -1,4 +1,6 @@
-# A React Native Sneaker Shop App
+# A React Native Sneaker Shop App(DCIT 202 IA)
 
-## Student Name: David Livingstone Hini
-## Student ID: 10853538
+## Author
+> - Name: David Livingstone Hini
+> - Student ID: 10853538
+> - Email: ldkhini001@st.ug.edu.gh
