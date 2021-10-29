@@ -19,52 +19,24 @@ export default function Login(params) {
           transform: [{ rotate: "45deg" }],
           borderRadius: 20,
           marginBottom: 60,
-          width: 180,
-          height: 180,
+          width: 200,
+          height: 200,
         }}
         source={{
           uri: "https://www.kicksonfire.com/wp-content/uploads/2018/05/Air-Jordan-3-Katrina-2018-Hall-Of-Fame.png",
         }}
       />
-      <Text style={{ fontSize: 25, fontWeight: "bold", color: "grey"}}>Sign In to continue</Text>
-      <Text style={{ fontSize: 40, fontWeight: "bold", color: "black" }}>Grealish Sneakers</Text>
-      <View style={{}}>
-        <TextInput
-          style={{
-            padding: 15,
-            borderRadius: 10,
-            borderWidth: 0.7,
-            paddingHorizontal: 60,
-            marginTop: 20,
-          }}
-          placeholder="Enter your username"
-        />
-      </View>
-      <View style={{ marginTop: 12,}}>
-        <TextInput
-          secureTextEntry={true}
-          onChangeText={(
-            e
-          )=> {
-            console.log(e)
-          }}
-          style={{
-            padding: 15,
-            borderRadius: 10,
-            borderWidth: 0.7,
-            paddingHorizontal: 60,
-          }}
-          placeholder="Enter your password"
-        />
-      </View>
+      <Text style={{ fontSize: 30, color: "grey" }}>Welcome to</Text>
+      <Text style={{ fontSize: 40, fontWeight: "bold" }}>Grealish Sneakers</Text>
+
       <TouchableOpacity
         onPress={() => {
-          navigation.navigate("Home");
+          navigation.navigate("Login");
         }}
         style={{
           padding: 15,
           paddingHorizontal: 80,
-          marginTop: 25,
+          marginTop: 15,
           alignItems: "center",
           borderRadius: 10,
           flexDirection: "row",
@@ -72,7 +44,7 @@ export default function Login(params) {
         }}
       >
         <AntDesign name="apple1" size={24} color="white" />
-        <Text style={{ paddingLeft: 10, color: "white" }}>Login</Text>
+        <Text style={{ paddingLeft: 10, color: "white" }}>Get Started</Text>
       </TouchableOpacity>
     </View>
   );

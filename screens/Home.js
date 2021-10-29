@@ -2,8 +2,8 @@ import React,{useState} from "react";
 import { StyleSheet, View, Modal, Text, TouchableOpacity, TextInput, FlatList } from "react-native";
 import { Ionicons, FontAwesome, AntDesign } from "@expo/vector-icons";
 
-import Card from "../components/BikeCard";
-import Card1 from "../components/BikeCard1";
+import Card from "../components/KicksCard";
+import Card1 from "../components/KicksCard1";
 
 export default function Home(params) {
   return (

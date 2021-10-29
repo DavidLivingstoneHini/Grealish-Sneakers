@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image } from "react-native";
 
-const BikeCard1 = () => {
+const KicksCard1 = () => {
     return (
         <View style={styles.container}>
         
@@ -65,4 +65,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default BikeCard1;
+export default KicksCard1;
