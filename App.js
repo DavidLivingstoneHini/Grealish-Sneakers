@@ -1,36 +1,26 @@
-import { StatusBar } from "expo-status-bar";
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
-import { createStackNavigator } from "@react-navigation/stack";
-import Getstarted from "./screens/Getstarted";
-import Login from "./screens/Login";
-import Home from "./screens/Home";
-import Tabs from "./navigation/tabs";
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import * as Font from 'expo-font';
+import AppNavigator from './src/navigations/Navigator';
+import AppLoading from 'expo-app-loading';
 
-export default function App() {
-  const MainNavigator = createStackNavigator();
-  return (
-    <View style={{ flex: 1 }}>
-      <NavigationContainer>
-        <MainNavigator.Navigator
-          screenOptions={{ headerShown: true ,  }}
-          // initialRouteName=""
-        >
-          <MainNavigator.Screen name="Get Started" component={Getstarted} />
-          <MainNavigator.Screen name="Login" component={Login} />
-          <MainNavigator.Screen name="Home" component={Home} />
-        </MainNavigator.Navigator>
-      </NavigationContainer>
-    </View>
-  );
+export default class App extends React.Component {
+  state={
+    isFontLoaded:false
+  }
+  async componentDidMount(){
+    await Font.loadAsync({
+      'Bold' : require('./src/fonts/Montserrat-ExtraBold.otf'),
+      'Medium' : require('./src/fonts/Montserrat-Medium.otf'),
+      'Regular' : require('./src/fonts/Montserrat-Regular.otf'),
+    });
+    this.setState({isFontLoaded:true})
+  }
+  render(){
+    return (
+   (this.state.isFontLoaded === true )? (<AppNavigator/>):(<AppLoading/>)
+      );
+  }
+
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
