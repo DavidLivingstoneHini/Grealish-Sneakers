@@ -148,7 +148,30 @@ export default class Home extends React.Component {
                        />
 
                     </ScrollView>
+                    <ScrollView
+                     horizontal
+                     showsHorizontalScrollIndicator={false}
+                    >
+                       <Couches
+                            src={require('../images/1.jpg')}
+                            name="Nike AirMax Women"
+                            onPress={()=>this.props.navigation.navigate("Detail")}
+                       
+                       />
+                         <Couches
+                            src={require('../images/2.jpg')}
+                            name="Nike Air Force V"
+                            onPress={()=>this.props.navigation.navigate("Detail")}
+                       
+                       />
+                         <Couches
+                            src={require('../images/lr.jpg')}
+                            name="Air Jordan IV"
+                            onPress={()=>this.props.navigation.navigate("Detail")}
+                       
+                       />
 
+                    </ScrollView>
 
                     <View style={{
                         flexDirection:"row",
