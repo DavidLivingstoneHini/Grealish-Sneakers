@@ -1,7 +1,7 @@
-import React from 'react'
-import {View,Text,Image,TouchableOpacity,StyleSheet, ImageBackground} from 'react-native'
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
-import SwiperComponent from '../common/SwiperComponent'
+import React from 'react';
+import {View,Text,Image,TouchableOpacity,StyleSheet, ImageBackground} from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import SwiperComponent from '../common/SwiperComponent';
 import Stars from 'react-native-stars';
 import { ScrollView } from 'react-native-gesture-handler';
 
