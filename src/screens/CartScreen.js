@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, View, Text, Image} from 'react-native';
+import {SafeAreaView, StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native';
 import {FlatList} from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import COLORS from '../consts/colors';
@@ -60,7 +60,22 @@ const CartScreen = ({navigation}) => {
               <Text style={{fontSize: 18, fontWeight: 'bold'}}>$50</Text>
             </View>
             <View style={{marginHorizontal: 30}}>
-              <PrimaryButton title="CHECKOUT" />
+            <TouchableOpacity
+        onPress={() => {
+          navigation.navigate("CheckoutScreen");
+        }}
+        style={{
+          padding: 15,
+          paddingHorizontal: 80,
+          marginTop: 25,
+          alignItems: "center",
+          borderRadius: 10,
+          flexDirection: "row",
+          backgroundColor: "black",
+        }}
+      >
+        <Text style={{ paddingLeft: 10, color: "white" }}>CHECKOUT</Text>
+      </TouchableOpacity>
             </View>
           </View>
         )}

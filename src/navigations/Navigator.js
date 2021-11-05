@@ -7,6 +7,7 @@ import Getstarted from '../screens/Getstarted';
 import Login from '../screens/Login';
 import Home from '../screens/Home';
 import Detail from '../screens/Detail';
+import CheckoutScreen from '../screens/CheckoutScreen';
 import BottomNavigator from './BottomNavigator';
 
 import AppLoading from 'expo-app-loading';
@@ -20,6 +21,7 @@ const AppNavigator = () => {
         <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="Home" component={BottomNavigator} />
           <Stack.Screen name="Detail" component={Detail} />
+          <Stack.Screen name="CheckoutScreen" component={CheckoutScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     );
