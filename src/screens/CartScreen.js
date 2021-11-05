@@ -20,7 +20,7 @@ const CartScreen = ({navigation}) => {
           }}>
           <Text style={{fontWeight: 'bold', fontSize: 16}}>{item.name}</Text>
           <Text style={{fontSize: 13, color: COLORS.grey}}>
-            {item.ingredients}
+            {item.section}
           </Text>
           <Text style={{fontSize: 17, fontWeight: 'bold'}}>${item.price}</Text>
         </View>

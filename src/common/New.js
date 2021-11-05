@@ -38,7 +38,7 @@ export default class New extends React.Component{
                    fontFamily:"Medium",
 
                }}>
-                   The latest Air Jordan sneakers available in all sizes
+                   The latest affordable sneakers available in all sizes
                </Text>
                <Text style={{
                    fontSize:11,

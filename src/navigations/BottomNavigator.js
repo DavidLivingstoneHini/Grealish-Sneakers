@@ -12,7 +12,7 @@ const Tab = createBottomTabNavigator();
 const BottomNavigator = () => {
   return (
     <Tab.Navigator
-      tabBarOptions={{
+    screenOptions={{
         style: {
           height: 55,
           borderTopWidth: 0,

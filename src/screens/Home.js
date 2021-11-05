@@ -2,7 +2,7 @@ import React from 'react';
 import {View,Text,Image,ImageBackground,TouchableOpacity} from 'react-native';
 import {TextInput,ScrollView} from 'react-native-gesture-handler';
 import Icon from '@expo/vector-icons/Ionicons';
-import Couches from '../common/Couches';
+import Category from '../common/Category';
 import New from '../common/New';
 import Best from '../common/Best';
 
@@ -105,7 +105,7 @@ export default class Home extends React.Component {
                         fontSize:18,
                         color:"#4f4a4a"
                     }}>
-                        Modern
+                        Latest
                     </Text>
                     <View style={{
                         width:5,
@@ -128,21 +128,21 @@ export default class Home extends React.Component {
                      horizontal
                      showsHorizontalScrollIndicator={false}
                     >
-                       <Couches
+                       <Category
                             src={require('../images/1.jpg')}
                             name="Nike AirMax Women"
                             onPress={()=>this.props.navigation.navigate('Detail')}
                        
                        />
-                         <Couches
-                            src={require('../images/2.jpg')}
-                            name="Nike Air Force V"
+                         <Category
+                            src={require('../images/lr.jpg')}
+                            name="Air Jordan IV"
                             onPress={()=>this.props.navigation.navigate('Detail')}
                        
                        />
-                         <Couches
-                            src={require('../images/lr.jpg')}
-                            name="Air Jordan IV"
+                         <Category
+                            src={require('../images/2.jpg')}
+                            name="Nike Air Force V"
                             onPress={()=>this.props.navigation.navigate('Detail')}
                        
                        />
@@ -152,22 +152,22 @@ export default class Home extends React.Component {
                      horizontal
                      showsHorizontalScrollIndicator={false}
                     >
-                       <Couches
-                            src={require('../images/1.jpg')}
-                            name="Nike AirMax Women"
-                            onPress={()=>this.props.navigation.navigate('Detail')}
+                       <Category
+                            src={require('../images/6.jpg')}
+                            name="Yeezy Boost 350 V2"
+                            onPress={()=>this.props.navigation.navigate("Detail")}
                        
                        />
-                         <Couches
-                            src={require('../images/2.jpg')}
-                            name="Nike Air Force V"
-                            onPress={()=>this.props.navigation.navigate('Detail')}
+                         <Category
+                            src={require('../images/5.jpg')}
+                            name="Air Jordan 1"
+                            onPress={()=>this.props.navigation.navigate("Detail")}
                        
                        />
-                         <Couches
-                            src={require('../images/lr.jpg')}
-                            name="Air Jordan IV"
-                            onPress={()=>this.props.navigation.navigate('Detail')}
+                         <Category
+                            src={require('../images/4.png')}
+                            name="Air Jordan 12 Royalty"
+                            onPress={()=>this.props.navigation.navigate("Detail")}
                        
                        />
 
@@ -209,13 +209,13 @@ export default class Home extends React.Component {
                     >
 
                         <New
-                         src={require('../images/sfa.jpg')}
+                         src={require('../images/3.jpg')}
                         />
                         <New
-                        src={require('../images/lr.jpg')}
+                        src={require('../images/5.jpg')}
                         />
                         <New
-                        src={require('../images/sfa.jpg')}
+                        src={require('../images/6.jpg')}
                         />
                     </ScrollView>
 

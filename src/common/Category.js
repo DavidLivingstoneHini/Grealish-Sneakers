@@ -2,7 +2,7 @@ import React from 'react';
 import {Text,View,Image} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 
-export default class Couches extends React.Component{
+export default class Category extends React.Component{
     render(){
         return(
 

@@ -5,7 +5,7 @@ export default class Best extends React.Component{
     render(){
         return(
            <ImageBackground
-           source={require('../images/jda.jpg')}
+           source={require('../images/yeezy.jpg')}
            style={{
                height:130,
                width:230,
@@ -21,12 +21,12 @@ export default class Best extends React.Component{
            >
                <Text style={{
                    fontFamily:"Bold",
-                   color:"#000066",
+                   color:"#FFF",
                    fontSize:15
-               }}>The Best Jordan Trainers</Text>
+               }}>The Best Pair Of Yeezy</Text>
                <Text style={{
                    fontFamily:"Bold",
-                   color:"#000",
+                   color:"#800000",
                    fontSize:12
                }}>Get 25% OFF</Text>
            </ImageBackground>

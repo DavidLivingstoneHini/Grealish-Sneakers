@@ -126,7 +126,7 @@ export default class Detail extends React.Component {
                                 fontFamily:"Bold",
                                 fontSize:18,
                                 color:"#4f4a4a"
-                            }}>Autobe best Chair</Text>
+                            }}>Nike AirMax Women</Text>
                         </View>
                         <View style={{
                             width:"35%"
@@ -157,7 +157,7 @@ export default class Detail extends React.Component {
                                     paddingTop:4,
                                     color:"#b3aeae"
                                 }}>
-                                    84 Reviews
+                                    98 Reviews
                                 </Text>
                               </View>
                         </View>
@@ -174,7 +174,7 @@ export default class Detail extends React.Component {
                         color:"#b3aeae",
                         marginTop:20
                     }}>
-                        Full sleeves short dress with three attractive colors and available in various sizes.
+                        Nike AirMax Women available in various sizes and colors.
                     </Text>
 
 
@@ -194,7 +194,7 @@ export default class Detail extends React.Component {
                             marginRight:20
                         }}>
                             <Image
-                                source={require('../images/12.png')}
+                                source={require('../images/1.jpg')}
                                 style={{height:80,width:80}}
                             />
                         </View>
@@ -209,7 +209,7 @@ export default class Detail extends React.Component {
                             marginRight:20
                         }}>
                             <Image
-                                source={require('../images/13.png')}
+                                source={require('../images/3.jpg')}
                                 style={{height:80,width:80}}
                             />
                         </View>
@@ -223,7 +223,7 @@ export default class Detail extends React.Component {
                             marginRight:20
                         }}>
                             <Image
-                                source={require('../images/14.png')}
+                                source={require('../images/5.jpg')}
                                 style={{height:80,width:80}}
                             />
                         </View>
@@ -237,7 +237,7 @@ export default class Detail extends React.Component {
                             marginRight:20
                         }}>
                             <Image
-                                source={require('../images/15.png')}
+                                source={require('../images/lr.jpg')}
                                 style={{height:80,width:80}}
                             />
                         </View>

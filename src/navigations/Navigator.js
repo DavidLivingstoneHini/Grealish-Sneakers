@@ -19,7 +19,7 @@ const AppNavigator = () => {
         <Stack.Screen name="Get Started" component={Getstarted} />  
         <Stack.Screen name="Login" component={Login} />
           <Stack.Screen name="Home" component={BottomNavigator} />
-          <Stack.Screen name="Details" component={Detail} />
+          <Stack.Screen name="Detail" component={Detail} />
         </Stack.Navigator>
       </NavigationContainer>
     );
