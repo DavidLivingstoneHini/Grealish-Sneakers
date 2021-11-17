@@ -31,7 +31,9 @@ export default function Login(params) {
                     <Text>Your privacy is important to us. We will only contact you if there is an issue with your order.</Text>
                 </View>
                 <View style={styles.button}>
-                    <TouchableOpacity onPress={() => this.props.changeState(2)}>
+                    <TouchableOpacity onPress={() => {
+          navigation.navigate("Finish");
+        }}>
                         <Text style={styles.text}>
                             CONFIRM ORDER
                         </Text>
@@ -54,7 +56,7 @@ const styles = StyleSheet.create({
         marginHorizontal: '5%'
     },
     button:{
-        backgroundColor: 'orange',
+        backgroundColor: '#001a33',
         marginHorizontal: '5%',
         height: 30,
         justifyContent: 'center',
