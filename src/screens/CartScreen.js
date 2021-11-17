@@ -10,7 +10,7 @@ const CartScreen = ({navigation}) => {
   const CartCard = ({item}) => {
     return (
       <View style={style.cartCard}>
-        <Image source={item.image} style={{height: 80, width: 80}} />
+        <Image source={item.image} style={{height: 70, width: 80}} />
         <View
           style={{
             height: 100,
