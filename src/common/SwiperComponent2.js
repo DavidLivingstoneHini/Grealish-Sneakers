@@ -40,7 +40,7 @@ export default class SwiperComponent extends React.Component {
                <View style={styles.slide}>
                    <Image
                      source={require('../images/2.jpg')}
-                     style={{height:300,width:300}}
+                     style={{height:200,width:300}}
                     />
 
                </View>
@@ -54,7 +54,7 @@ export default class SwiperComponent extends React.Component {
                <View style={styles.slide}>
                    <Image
                      source={require('../images/23.jpg')}
-                     style={{height:300,width:300}}
+                     style={{height:200,width:300}}
                     />
 
                </View>

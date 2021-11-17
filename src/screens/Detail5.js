@@ -194,7 +194,7 @@ export default class Detail extends React.Component {
                             marginRight:20
                         }}>
                             <Image
-                                source={require('../images/1.jpg')}
+                                source={require('../images/4.png')}
                                 style={{height:80,width:80}}
                             />
                         </View>
@@ -209,7 +209,7 @@ export default class Detail extends React.Component {
                             marginRight:20
                         }}>
                             <Image
-                                source={require('../images/3.jpg')}
+                                source={require('../images/43.jpg')}
                                 style={{height:80,width:80}}
                             />
                         </View>
@@ -223,7 +223,7 @@ export default class Detail extends React.Component {
                             marginRight:20
                         }}>
                             <Image
-                                source={require('../images/5.jpg')}
+                                source={require('../images/42.png')}
                                 style={{height:80,width:80}}
                             />
                         </View>
@@ -237,7 +237,7 @@ export default class Detail extends React.Component {
                             marginRight:20
                         }}>
                             <Image
-                                source={require('../images/lr.jpg')}
+                                source={require('../images/41.jpg')}
                                 style={{height:80,width:80}}
                             />
                         </View>

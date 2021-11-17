@@ -10,6 +10,8 @@ import Detail from '../screens/Detail';
 import Detail1 from '../screens/Detail1';
 import Detail2 from '../screens/Detail2';
 import Detail3 from '../screens/Detail3';
+import Detail4 from '../screens/Detail4';
+import Detail5 from '../screens/Detail5';
 import CheckoutScreen from '../screens/CheckoutScreen';
 import BottomNavigator from './BottomNavigator';
 
@@ -27,6 +29,8 @@ const AppNavigator = () => {
           <Stack.Screen name="Detail1" component={Detail1} />
           <Stack.Screen name="Detail2" component={Detail2} />
           <Stack.Screen name="Detail3" component={Detail3} />
+          <Stack.Screen name="Detail4" component={Detail4} />
+          <Stack.Screen name="Detail5" component={Detail5} />
           <Stack.Screen name="CheckoutScreen" component={CheckoutScreen} />
         </Stack.Navigator>
       </NavigationContainer>

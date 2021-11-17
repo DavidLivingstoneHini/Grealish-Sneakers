@@ -12,7 +12,7 @@ export default class Home extends React.Component {
             <ScrollView
             showsVerticalScrollIndicator={false}
             style={{
-                backgroundColor:"#fff",
+                backgroundColor:"#f2f2f2",
                 paddingHorizontal:20
             }}
             >
@@ -161,13 +161,13 @@ export default class Home extends React.Component {
                          <Category
                             src={require('../images/5.jpg')}
                             name="Air Jordan 1"
-                            onPress={()=>this.props.navigation.navigate("Detail")}
+                            onPress={()=>this.props.navigation.navigate("Detail4")}
                        
                        />
                          <Category
                             src={require('../images/4.png')}
                             name="Air Jordan 12 Royalty"
-                            onPress={()=>this.props.navigation.navigate("Detail")}
+                            onPress={()=>this.props.navigation.navigate("Detail5")}
                        
                        />
 

@@ -3,6 +3,7 @@ import {View, ScrollView, Text, StyleSheet, TouchableOpacity} from 'react-native
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import Shipping from '../components/Shipping';
 import Finish from '../components/Finish';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 
 export default class CheckoutScreen extends React.Component{
@@ -26,7 +27,7 @@ export default class CheckoutScreen extends React.Component{
             component3 = <Finish/>
         }
         return(
-            <View style={styles.page}>
+            <SafeAreaView style={styles.page}>
                 <ScrollView>
                     <View style={styles.blockView}>
                         <Text style={styles.blockViewText}>1. Shipping</Text>
@@ -37,7 +38,7 @@ export default class CheckoutScreen extends React.Component{
                     </View>
                     {component2}
                 </ScrollView>
-            </View>
+            </SafeAreaView>
         )
     }
 }

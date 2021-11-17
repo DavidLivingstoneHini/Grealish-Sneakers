@@ -238,7 +238,7 @@ export default class Detail extends React.Component {
                         }}>
                             <Image
                                 source={require('../images/lr.jpg')}
-                                style={{height:80,width:80}}
+                                style={{height:70,width:80}}
                             />
                         </View>
                     </ScrollView>
