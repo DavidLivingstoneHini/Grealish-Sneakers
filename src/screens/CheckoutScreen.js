@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, ScrollView, Text, StyleSheet, TouchableOpacity} from 'react-native';
-import {AntDesign} from '@expo/vector-icons';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 import Shipping from '../components/Shipping';
 import Finish from '../components/Finish';
 
@@ -13,6 +13,7 @@ export default class CheckoutScreen extends React.Component{
     changeStage = (number) => {
         this.setState({stage: number})
     }
+
     render(){
         let component = null
         let component2 = null

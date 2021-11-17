@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {Image,StyleSheet,Text,View} from 'react-native';
 
 import Swiper from 'react-native-swiper';
@@ -62,4 +62,4 @@ export default class SwiperComponent extends React.Component {
             </Swiper>
         );
     }
-} 
+}

@@ -137,7 +137,7 @@ export default class Home extends React.Component {
                          <Category
                             src={require('../images/lr.jpg')}
                             name="Air Jordan IV"
-                            onPress={()=>this.props.navigation.navigate('Detail')}
+                            onPress={()=>this.props.navigation.navigate('Detail1')}
                        
                        />
                          <Category
