@@ -1,47 +1,31 @@
 import React from 'react';
-import {View, ScrollView, Text, StyleSheet, TouchableOpacity} from 'react-native';
+import {View, ScrollView, Text, Image, StyleSheet, TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import Shipping from '../components/Shipping';
+import Payment from '../components/Payment';
 import Finish from '../components/Finish';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-
-export default class CheckoutScreen extends React.Component{
-    state = {
-        stage: 0
-    }
-
-    changeStage = (number) => {
-        this.setState({stage: number})
-    }
-
-    render(){
-        let component = null
-        let component2 = null
-        let component3 = null
-        if (this.state.stage === 0){
-            component = <Shipping changeStage={this.changeStage}/>
-        } else if (this.state.stage === 1){
-            component2 = 9
-        } else if (this.state.stage === 2){
-            component3 = <Finish/>
-        }
+    export default function CheckoutScreen(params) {
+        const navigation = params.navigation;
         return(
             <SafeAreaView style={styles.page}>
-                <ScrollView>
                     <View style={styles.blockView}>
-                        <Text style={styles.blockViewText}>1. Shipping</Text>
+                        <Text style={styles.blockViewText}>Payment & Shipping</Text>
                     </View>
-                    {component}
-                    <View style={styles.blockView}>
-                        <Text style={styles.blockViewText}>2. Payment</Text>
-                    </View>
-                    {component2}
-                </ScrollView>
+
+                    <Image
+        style={{
+          borderRadius: 20,
+          width: "100%",
+          height: 240,
+        }}
+        source={require('../images/visa.jpg')}
+      />
+                    <Payment />
             </SafeAreaView>
         )
     }
-}
 
 const styles = StyleSheet.create({
     page:{

@@ -4,23 +4,9 @@ import {EvilIcons} from '@expo/vector-icons';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
 
-export default class Payment extends React.Component{
-    state = {
-        CardNumber: null,
-        Expiration: null,
-        CVV: null,
-        State: null,
-        Zip: null,
-        Address: null,
-        Email: null,
-        PhoneNumber: null
-    }
-
-    request = () => {
-
-    }
-    render(){
-        return(
+export default function Login(params) {
+    const navigation = params.navigation;
+    return (
             <View>
                 <TextInput 
                     placeholder='Card Number'
@@ -47,14 +33,13 @@ export default class Payment extends React.Component{
                 <View style={styles.button}>
                     <TouchableOpacity onPress={() => this.props.changeState(2)}>
                         <Text style={styles.text}>
-                            SAVE AND CONTINUTE
+                            CONFIRM ORDER
                         </Text>
                     </TouchableOpacity>
                 </View>
             </View>
         )
     }
-}
 
 const styles = StyleSheet.create({
     input:{

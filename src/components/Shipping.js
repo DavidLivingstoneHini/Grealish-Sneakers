@@ -23,14 +23,8 @@ export default class Shipping extends React.Component{
         return(
             <View>
                 <TextInput 
-                    placeholder='First Name'
+                    placeholder='Your Name'
                     onChangeText={newTerm => this.setState({FirstName: newTerm})}
-                    style={styles.input}
-                    multiline
-                />
-                <TextInput 
-                    placeholder='Last Name'
-                    onChangeText={newTerm => this.setState({LastName: newTerm})}
                     style={styles.input}
                     multiline
                 />
@@ -41,7 +35,7 @@ export default class Shipping extends React.Component{
                     multiline
                 />
                 <TextInput 
-                    placeholder='City'
+                    placeholder='Enter Amount'
                     onChangeText={newTerm => this.setState({City: newTerm})}
                     style={styles.input}
                     multiline
