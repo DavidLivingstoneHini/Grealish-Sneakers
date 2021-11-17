@@ -53,14 +53,15 @@ const styles = StyleSheet.create({
     },
     row:{
         flexDirection: 'row',
-        marginHorizontal: '5%'
+        marginHorizontal: '5%',
+        marginTop: 20,
     },
     button:{
         backgroundColor: '#001a33',
         marginHorizontal: '5%',
         height: 30,
         justifyContent: 'center',
-        marginTop: 10
+        marginTop: 35
     },
     text:{
         color: 'white',
