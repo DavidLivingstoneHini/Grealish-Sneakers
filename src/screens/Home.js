@@ -143,7 +143,7 @@ export default class Home extends React.Component {
                          <Category
                             src={require('../images/2.jpg')}
                             name="Nike Air Force V"
-                            onPress={()=>this.props.navigation.navigate('Detail')}
+                            onPress={()=>this.props.navigation.navigate('Detail2')}
                        
                        />
 
@@ -155,7 +155,7 @@ export default class Home extends React.Component {
                        <Category
                             src={require('../images/6.jpg')}
                             name="Yeezy Boost 350 V2"
-                            onPress={()=>this.props.navigation.navigate("Detail")}
+                            onPress={()=>this.props.navigation.navigate("Detail3")}
                        
                        />
                          <Category

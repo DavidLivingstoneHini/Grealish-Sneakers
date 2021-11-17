@@ -46,14 +46,14 @@ export default class SwiperComponent extends React.Component {
                </View>
                <View style={styles.slide}>
                    <Image
-                     source={require('../images/2.jpg')}
+                     source={require('../images/lr3.jpg')}
                      style={{height:200,width:300}}
                     />
 
                </View>
                <View style={styles.slide}>
                    <Image
-                     source={require('../images/3.jpg')}
+                     source={require('../images/lr4.jpg')}
                      style={{height:300,width:300}}
                     />
 
