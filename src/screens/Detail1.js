@@ -126,7 +126,7 @@ export default class Detail extends React.Component {
                                 fontFamily:"Bold",
                                 fontSize:18,
                                 color:"#4f4a4a"
-                            }}>Nike AirMax Women</Text>
+                            }}>Air Jordan IV</Text>
                         </View>
                         <View style={{
                             width:"35%"
@@ -174,7 +174,7 @@ export default class Detail extends React.Component {
                         color:"#b3aeae",
                         marginTop:20
                     }}>
-                        Nike AirMax Women available in various sizes and colors.
+                        Air Jordan IV available in various sizes and colors.
                     </Text>
 
 

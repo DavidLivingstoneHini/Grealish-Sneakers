@@ -19,9 +19,11 @@ import { SafeAreaView } from 'react-native-safe-area-context';
           borderRadius: 20,
           width: "100%",
           height: 240,
+          marginTop: 20,
         }}
         source={require('../images/visa.jpg')}
       />
+                    
                     <Payment />
             </SafeAreaView>
         )
